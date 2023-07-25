@@ -4,8 +4,7 @@
   "description": "fake quiz api",
   "main": "index.js",
   "scripts": {
-    "json:server" : "json-server --watch db.json",
-    "json:server:remote" : "json-server http://jsonplaceholder.typicode.com/quizdb"
+    "start": "node index.js"
   },
   "author": "divya gaurav",
   "license": "ISC",
