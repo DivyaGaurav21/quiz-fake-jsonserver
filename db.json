@@ -1,5 +1,5 @@
 {
-    "questions": [
+    "react": [
       {
         "question": "Which is the most popular JavaScript framework?",
         "options": ["Angular", "React", "Svelte", "Vue"],
@@ -135,6 +135,338 @@
         "correctOption": 3,
         "points": 20
       }
+    ],
+    "javascript":[
+      {
+        "question": "What is the purpose of the 'typeof' operator in JavaScript?",
+        "options": [
+          "To check if a variable is defined",
+          "To determine the data type of a value or expression",
+          "To create a new variable",
+          "To compare two values"
+        ],
+        "correctOption": 1,
+        "points": 20
+      },
+      {
+        "question": "Which JavaScript function is used to print content to the console?",
+        "options": [
+          "print()",
+          "log()",
+          "write()",
+          "display()"
+        ],
+        "correctOption": 1,
+        "points": 20
+      },
+      {
+        "question": "What is an example of a JavaScript data type that stores both text and numbers?",
+        "options": [
+          "string",
+          "number",
+          "boolean",
+          "object"
+        ],
+        "correctOption": 0,
+        "points": 20
+      },
+      {
+        "question": "Which operator is used to combine two or more strings in JavaScript?",
+        "options": [
+          "+",
+          "-",
+          "*",
+          "/"
+        ],
+        "correctOption": 0,
+        "points": 20
+      },
+      {
+        "question": "What is the purpose of the 'for' loop in JavaScript?",
+        "options": [
+          "To define a new variable",
+          "To iterate over elements of an array or perform repetitive tasks",
+          "To create a new function",
+          "To declare a class"
+        ],
+        "correctOption": 1,
+        "points": 20
+      },
+      {
+        "question": "What is the JavaScript function used to add or remove HTML elements?",
+        "options": [
+          "addElement()",
+          "modifyElement()",
+          "createNode()",
+          "appendChild()"
+        ],
+        "correctOption": 3,
+        "points": 20
+      },
+      {
+        "question": "What does the 'NaN' value represent in JavaScript?",
+        "options": [
+          "A negative number",
+          "An error",
+          "Not a Number",
+          "Null"
+        ],
+        "correctOption": 2,
+        "points": 20
+      },
+      {
+        "question": "Which method is used to send an HTTP request in JavaScript?",
+        "options": [
+          "sendRequest()",
+          "fetch()",
+          "httpRequest()",
+          "post()"
+        ],
+        "correctOption": 1,
+        "points": 20
+      },
+      {
+        "question": "What is the purpose of the 'localStorage' object in JavaScript?",
+        "options": [
+          "To store data temporarily during a single session",
+          "To store data permanently on the server",
+          "To store data temporarily across different sessions",
+          "To store data in a hidden element on the web page"
+        ],
+        "correctOption": 0,
+        "points": 20
+      },
+      {
+        "question": "What does the 'JSON' acronym stand for in JavaScript?",
+        "options": [
+          "JavaScript Object Notation",
+          "JavaScript Oriented Network",
+          "JavaScript Online Notation",
+          "JavaScript Object Namespace"
+        ],
+        "correctOption": 0,
+        "points": 20
+      },
+      {
+        "question": "Which JavaScript method is used to convert a string to an integer?",
+        "options": [
+          "parseInt()",
+          "convertToInt()",
+          "toInteger()",
+          "stringToNumber()"
+        ],
+        "correctOption": 0,
+        "points": 20
+      },
+      {
+        "question": "In JavaScript, what does the 'document' object represent?",
+        "options": [
+          "The web page's URL",
+          "The browser's history",
+          "The web page's document structure",
+          "The user's computer"
+        ],
+        "correctOption": 2,
+        "points": 20
+      },
+      {
+        "question": "What is the purpose of the 'setTimeout' function in JavaScript?",
+        "options": [
+          "To set a timer that executes a function after a specified time delay",
+          "To update the current time on the web page",
+          "To create a loop for iterating over elements",
+          "To define a new function"
+        ],
+        "correctOption": 0,
+        "points": 20
+      },
+      {
+        "question": "In JavaScript, what is an 'arrow function' commonly used for?",
+        "options": [
+          "To declare variables",
+          "To define classes",
+          "To create anonymous functions",
+          "To perform mathematical calculations"
+        ],
+        "correctOption": 2,
+        "points": 20
+      },
+      {
+        "question": "Which JavaScript method is used to remove an element from the DOM?",
+        "options": [
+          "deleteElement()",
+          "removeElement()",
+          "removeChild()",
+          "eraseElement()"
+        ],
+        "correctOption": 2,
+        "points": 20
+      }
+      
+      
+      
+    ],
+    "java":[
+      {
+        "question": "What is the Java Virtual Machine (JVM)?",
+        "options": [
+          "A compiler",
+          "An interpreter",
+          "A runtime environment",
+          "A debugger"
+        ],
+        "correctOption": 2,
+        "points": 20
+      },
+      {
+        "question": "Which access modifier in Java allows a class to be accessible only within its own package?",
+        "options": [
+          "public",
+          "protected",
+          "default",
+          "private"
+        ],
+        "correctOption": 2,
+        "points": 20
+      },
+      {
+        "question": "What is the purpose of the 'static' keyword in Java?",
+        "options": [
+          "To make a method non-static",
+          "To make a variable non-static",
+          "To indicate a method is a constructor",
+          "To define a constant"
+        ],
+        "correctOption": 3,
+        "points": 20
+      },
+      {
+        "question": "Which data structure in Java is used to store key-value pairs?",
+        "options": [
+          "Array",
+          "List",
+          "Map",
+          "Set"
+        ],
+        "correctOption": 2,
+        "points": 20
+      },
+      {
+        "question": "What is a Java annotation used for?",
+        "options": [
+          "To define a new class",
+          "To provide metadata or extra information about code",
+          "To declare a variable",
+          "To handle exceptions"
+        ],
+        "correctOption": 1,
+        "points": 20
+      },
+      {
+        "question": "What does the 'this' keyword refer to in Java?",
+        "options": [
+          "The current class instance",
+          "The parent class instance",
+          "The child class instance",
+          "The superclass instance"
+        ],
+        "correctOption": 0,
+        "points": 20
+      },
+      {
+        "question": "Which Java keyword is used to explicitly throw an exception?",
+        "options": [
+          "try",
+          "throw",
+          "catch",
+          "finally"
+        ],
+        "correctOption": 1,
+        "points": 20
+      },
+      {
+        "question": "What is the Java 'final' keyword used for?",
+        "options": [
+          "To indicate that a class cannot be subclassed",
+          "To indicate that a method cannot be overridden",
+          "To indicate that a variable cannot be modified",
+          "To indicate the end of a program"
+        ],
+        "correctOption": 2,
+        "points": 20
+      },
+      {
+        "question": "What is the purpose of the 'static' keyword in Java?",
+        "options": [
+          "To make a method non-static",
+          "To make a variable non-static",
+          "To indicate a method is a constructor",
+          "To define a constant"
+        ],
+        "correctOption": 3,
+        "points": 20
+      },
+      {
+        "question": "Which data structure in Java is used to store key-value pairs?",
+        "options": ["Array", "List", "Map", "Set"],
+        "correctOption": 2,
+        "points": 20
+      },
+      {
+        "question": "What is the main difference between '==' and '.equals()' in Java when comparing objects?",
+        "options": [
+          "They are functionally equivalent",
+          "'==' compares object references, '.equals()' compares object contents",
+          "'==' compares object contents, '.equals()' compares object references",
+          "There is no difference between them"
+        ],
+        "correctOption": 1,
+        "points": 20
+      },
+      {
+        "question": "Which Java collection type guarantees that elements are unique?",
+        "options": [
+          "List",
+          "Set",
+          "Map",
+          "Array"
+        ],
+        "correctOption": 1,
+        "points": 20
+      },
+      {
+        "question": "What is the purpose of the 'break' statement in Java?",
+        "options": [
+          "To terminate the program",
+          "To exit a loop or switch statement prematurely",
+          "To create a line break in the code",
+          "To pause program execution"
+        ],
+        "correctOption": 1,
+        "points": 20
+      },
+      {
+        "question": "In Java, which access modifier allows a class to be accessible from anywhere?",
+        "options": [
+          "public",
+          "private",
+          "protected",
+          "default"
+        ],
+        "correctOption": 0,
+        "points": 20
+      },
+      {
+        "question": "What is the Java 'interface' used for?",
+        "options": [
+          "To define a new class",
+          "To provide a way to implement multiple inheritance",
+          "To create a concrete class",
+          "To encapsulate data"
+        ],
+        "correctOption": 1,
+        "points": 20
+      } 
     ]
+
   }
-  
